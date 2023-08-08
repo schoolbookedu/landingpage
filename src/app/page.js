@@ -87,7 +87,7 @@ export default function Home() {
      <section className='w-full py-[50px] lg:py-[100px] px-[20px] lg:px-[200px] flex flex-col lg:flex-row bg-[#ffffff]'>
               <div className='w-full bg-[#0B004E] py-[30px] lg:py-[80px] px- sm:px-12 text-center space-y-8'>
                 <h2 className='text-[#ffffff] font-bold text-xl sm:text-4xl'>Ready to get started?</h2>
-                <p className='text-[#ffffff] font-normal text-base sm:text-xl leading-7'>{`You can drive that schooling process <br/>using schoolboo`}</p>
+                <p className='text-[#ffffff] font-normal text-base sm:text-xl leading-7'>{`You can drive that schooling process using schoolbook`}</p>
                 <div className='flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4'>
                 <button
               className={primaryBtn}> 
