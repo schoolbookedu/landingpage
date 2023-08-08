@@ -35,13 +35,13 @@ const Accordion = () => {
           <summary className="w-full text-white flex justify-between px-4 py-4 after:content-['+'] rounded-[40px] bg-[#407BFF]">
             <div className="flex flex-row space-x-2">
               <MdOutlineVideoLibrary className="w-[20px] h-[20px]" />
-              <p>Video Creator</p>
+              <p>{`Video Creator`}</p>
             </div>
           </summary>
           <p className="px-4 py-3 text-left">
-            Upload course materials in video format with images, animation that
+            {`Upload course materials in video format with images, animation that
             offers more clarity and illustrations for practical courses to
-            students.
+            students.`}
           </p>
         </details>
         <details
@@ -53,12 +53,12 @@ const Accordion = () => {
           <summary className="w-full text-white flex justify-between px-4 py-4 after:content-['+'] rounded-[40px] bg-[#407BFF]">
             <div className="flex flex-row space-x-2">
               <MdAudiotrack className="w-[20px] h-[20px]" />
-              <p>Audio Creator</p>
+              <p>{`Audio Creator`}</p>
             </div>
           </summary>
           <p className="px-4 py-3 text-left">
-            Create and share audio course materials from your device with your
-            students, keeping them plugged in from anywhere and anytime.
+            {`Create and share audio course materials from your device with your
+            students, keeping them plugged in from anywhere and anytime.`}
           </p>
         </details>
 
@@ -71,13 +71,13 @@ const Accordion = () => {
           <summary className="w-full text-white flex justify-between px-4 py-4 after:content-['+'] rounded-[40px] bg-[#407BFF]">
             <div className="flex flex-row space-x-2">
               <MdAudiotrack className="w-[20px] h-[20px]" />
-              <p>Document Creator</p>
+              <p>{`Document Creator`}</p>
             </div>
           </summary>
           <p className="px-4 py-3 text-left">
-            Share and provide access to lecture documents in various word
+            {`Share and provide access to lecture documents in various word
             formats such as Docx , Ppt, Excel, PDF to students, thereby making
-            the process seamless.
+            the process seamless.`}
           </p>
         </details>
       </div>

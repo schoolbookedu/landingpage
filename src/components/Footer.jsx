@@ -57,7 +57,7 @@ const Footer = () => {
       </div>
       <hr/>
       <div className="flex flex-col md:space-y-0 space-y-4 md:flex-row justify-between py-12">
-        <p className="text-base font-bold text-white">Copyright 2021 SchoolBook Inc. All rights reserved</p>
+        <p className="text-base font-bold text-white">{`Copyright 2021 SchoolBook Inc. All rights reserved`}</p>
         <ul className="flex flex-row space-x-4 ">
           <li className="text-sm font-bold text-white">Terms of Use</li>
           <li className="text-sm font-bold text-white">Privacy Policy</li>
