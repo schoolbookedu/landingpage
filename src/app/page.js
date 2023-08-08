@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import Accordion from '@/components/Accordion'
 import Testimonial from '@/components/Testimonial'
 
@@ -45,10 +46,12 @@ export default function Home() {
         <h1 className='text-[#000] capitalize text-xl lg:text-3xl font-bold leading-snug lg:leading-snug mt-5'>A learning platform that works for students and instructors</h1>
         <p className='text-[#000] lg:text-sm font-normal lg:leading-7 mt-5'>{`Our data driven solution is designed to cater for both major players in the academic enviroment. Our product provides solutions to the challenges of students, catering for the niche of nursing mothers, working class business men and women to physically challenge students and aged instructors. Enabling instructors have total control of their time.`}</p>
         <div className='mt-10'> 
-        <button
+        <Link href='/about'>
+          <button
               className={primaryBtn}> 
                 Read More
-              </button>
+          </button>
+        </Link>
         </div>
       </div>
      </section>
